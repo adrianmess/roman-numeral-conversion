@@ -14,6 +14,7 @@ A website created using HTML and JavaScript that will allow the user to convert 
 | :-------------     | :------------- | :------------- |
 | **Program does not allow non-numbers** | User input: "word" | Output: "This is not a number. Please enter a number." |
 | **Program does not allow input larger than 3999**| User Input: "4000" | Output: "This number is too large. Please enter another number." |
+| **Program does not allow the number 0** | User input: "0" | Output: "This number is invalid! Please enter another number."
 | **Program converts 1 to I**| User Input: "1" | Output: "I" |
 | **Program converts 5 to V**| User Input: "5" | Output: "V" |
 | **Program converts 10 to X**| User Input: "10" | Output: "X" |
@@ -21,12 +22,6 @@ A website created using HTML and JavaScript that will allow the user to convert 
 | **Program converts 100 to C**| User Input: "100" | Output: "C" |
 | **Program converts 500 to D**| User Input: "500" | Output: "D" |
 | **Program converts 1000 to M**| User Input: "1000" | Output: "M" |
-<!-- | **Program converts 4 to IV**| User Input: "4" | Output: "IV" |
-| **Program converts 9 to IX**| User Input: "9" | Output: "IX" |
-| **Program converts 40 to XL**| User Input: "40" | Output: "XL" |
-| **Program converts 90 to XC**| User Input: "90" | Output: "XC" |
-| **Program converts 400 to CD**| User Input: "400" | Output: "CD" |
-| **Program converts 900 to CM**| User Input: "900" | Output: "CM" | -->
 | **Program converts a 4 in the ones column to IV**| User Input: "14" | Output: "XIV" |
 | **Program converts a 9 to in the ones column to IX**| User Input: "19" | Output: "XIX" |
 | **Program converts a 4 in the tens column to XL**| User Input: "140" | Output: "CXL" |
@@ -63,3 +58,10 @@ _Email no one with any questions, comments, or concerns._
 *{This software is licensed under the MIT license}*
 
 Copyright (c) 2017 **_{Marilyn Carlin, David Wilson}_**
+
+<!-- | **Program converts 4 to IV**| User Input: "4" | Output: "IV" |
+| **Program converts 9 to IX**| User Input: "9" | Output: "IX" |
+| **Program converts 40 to XL**| User Input: "40" | Output: "XL" |
+| **Program converts 90 to XC**| User Input: "90" | Output: "XC" |
+| **Program converts 400 to CD**| User Input: "400" | Output: "CD" |
+| **Program converts 900 to CM**| User Input: "900" | Output: "CM" | -->
